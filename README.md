@@ -19,3 +19,7 @@ It will refresh the entire database and seed it with the data
 `sail artisan make:model Producto --resource --api --migration`
 
 It will create a model, a resource controller (normal controller but with default methods used for an api) and a migration
+
+`sail artisan make:request RegistroRequest`
+
+It will create a request that will handle the validation of the data for a register request
