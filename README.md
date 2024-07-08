@@ -23,3 +23,9 @@ It will create a model, a resource controller (normal controller but with defaul
 `sail artisan make:request RegistroRequest`
 
 It will create a request that will handle the validation of the data for a register request
+
+`sail artisan config:publish cors`
+
+It will publish the cors configuration file to the config folder
+
+- We need to use HasApiTokens in the User model to be able to use the Passport package and be able to return users
